@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\npositive effect : increasing the number of crimes \n",
+    "T_STAT": "\nthe t-statistic associated is 1.820\n\nformula = (coef - (P>|t|)) / std err\n\n",
+    "P_VALUE": "\nHypothesis_0 = \"the median age does not impact on the number of crimes\"\n\np-value of 0.128 is :\n- superior to alpha which is 5% in case of a 96% confidence level \n=> we fail to reject the hypothesis 0 \n\n# to doooo -> rerun a model with alpha = 10%\n- superior to alpha which is 10% in case of a 90% confidence level\n=> we fail to reject the hypothesis 0 \n",
+    "INCREASE": "\nHolding all other regressors constant, when the share of families with a married couple increases by 1 percentage point in the district, \nthe total number of incidents decreases by 2115.\n",
+    "LIMITATIONS": "\nAs the dataset is super duper small, we can't generalize that way...\n-> F-statistic is pretty low \n-> Cond. No. of 2.42e+03 is pretty high =>  strong multicolinearity\n"
+}
